@@ -1,0 +1,92 @@
+body.login {
+	background-color: #3A5168;
+	color: #C9CED1;
+	padding-top: 70px;
+}
+
+body.login .logo {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+body.login .logo img {
+	width: 80px;
+}
+
+body.login form a {
+	color: #1DCFAC;
+	font-size: 13px;
+}
+
+body.login form .input-group {
+	margin-bottom: 20px;
+}
+
+body.login .btn {
+	text-transform: uppercase;
+}
+
+body.login .btn > span {
+	font-size: 12px;
+	position: relative;
+	top: -1px;
+	margin-left: 5px;
+}
+
+body.login form .input-group .input-group-btn button.btn {
+	border: 0px;
+	line-height: 22px;
+	background-color: #2C3E50;
+}
+
+body.login form input[type="email"], body.login form input[type="password"], body.login form input[type="text"] {
+	border: 0px;
+	background-color: #2C3E50;
+	color: #eee;
+}
+
+body.login h2 {
+	margin-bottom: 40px;
+	font-weight: 200;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #eee;
+	letter-spacing: 4px;
+}
+
+body.login .alert-success {
+	border: 0px;
+}
+
+body.login h5.smaller {
+	color: #ddd;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+body.login h5.smaller > span {
+	margin-right: 10px;
+}
+
+body.login form .btn-primary {
+	margin-bottom: 10px;
+}
+
+body.login .divider {
+	border-bottom: 2px solid #bdc3c7;
+	line-height: 0px;
+	text-align: center;
+	width: 100%;
+	height: 1px;
+	padding: 0px;
+	margin: 40px 0px;
+}
+
+body.login .divider > span {
+	background: #3A5168;
+	padding: 0px 15px;
+}
+
+.modal {
+	color: #34495e;
+}

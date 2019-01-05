@@ -1,0 +1,21 @@
+{
+  "name": "tapan29bd/laravel-installer",
+  "description": "Laravel web installer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rachid Laasri",
+      "email": "rashidlaasri@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Tapan29bd\\LaravelInstaller\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "stable"
+}

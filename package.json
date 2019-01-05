@@ -1,0 +1,26 @@
+{
+  "name": "SiteBuilder-Laravel",
+  "version": "1.1.1",
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "engines": {
+    "node": "6.11.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0",
+    "bootstrap-sass": "^3.0.0",
+    "browserify": "^13.0.0",
+    "concat": "^1.0.0",
+    "http-server": "^0.8.5",
+    "jake": "^8.0.12",
+    "jshint": "^2.9.1",
+    "minifier": "^0.7.1",
+    "semver": "^5.1.0",
+    "shelljs": "^0.6.0",
+    "simplebuild-jshint": "^1.3.0"
+  }
+}
