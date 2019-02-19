@@ -4,3 +4,7 @@
 /public/storage
 Homestead.yaml
 Homestead.json
+composer.json
+composer.lock
+storage
+vendor
