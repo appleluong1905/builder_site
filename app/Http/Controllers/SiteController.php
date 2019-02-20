@@ -291,7 +291,8 @@ class SiteController extends Controller
 
 		$data['builder'] = true;
 		$data['page'] = 'site';
-
+		$news = DB::table('news')->get();
+		$data['news'] = $news;
 		//dd($data);
 		return view('sites.create', ['data' => $data])->render();
 	}

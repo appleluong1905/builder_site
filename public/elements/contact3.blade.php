@@ -28,8 +28,11 @@
     		
     				<div class="col-md-5">
     			
-    					<h3 class="margin-bottom-40 editContent">Get in touch! We're here for you...</h3>
-    				    <h4><?php echo "test"; ?></h4>
+    					<h3 class="margin-bottom-40 editContent">Get in touch! We're here for you... [blade template]</h3>
+                        <?php var_dump("abc");
+                        var_dump($data);?>
+    				    <?php  if(isset($data['news'])){ ?>
+                        <h4><?php echo "test"; ?></h4>
                         <?php } ?>
                         <?php  if(1){ ?>
                         <h4><?php echo "try demo"; ?></h4>
