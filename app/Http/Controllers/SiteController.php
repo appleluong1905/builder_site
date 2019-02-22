@@ -902,7 +902,7 @@ class SiteController extends Controller
 			{
 				$pageContent = $content;
 			}
-			$zip->addFromString($page . ".html", $request->input('doctype') . "\n" . stripslashes($pageContent));
+			$zip->addFromString($page . ".php", $request->input('doctype') . "\n" . stripslashes($pageContent));
 		}
 		$zip->close();
 

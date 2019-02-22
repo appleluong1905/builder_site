@@ -26,47 +26,53 @@
     		    		
     			<div class="row">
     			
-    				<div class="col-md-4">
-    				   
-    				   	<div class="col editContent">
-    				   	    			
-    						<h3>Column One</h3>
-    						
-    						<p>
-    							Ut non lobortis est. Ut dictum scelerisque luctus. Aliquam condimentum interdum odio, et fermentum nulla pharetra in.
-    						</p>
-    					
-    					</div><!-- /.col -->
-    						    					    				
-    				</div><!-- /.col-md-4 col -->
-    				
-    				<div class="col-md-4 editContent">
-    				    
-    				    <div class="col">
-    				    			    					
-    						<h3>Column Two</h3>
-    						
-    						<p>
-    							Ut non lobortis est. Ut dictum scelerisque luctus. Aliquam condimentum interdum odio, et fermentum nulla pharetra in.
-    						</p>
-    						
-    					</div><!-- /.col -->
-    						    					    				
-    				</div><!-- /.col-md-4 col -->
-    				
-    				<div class="col-md-4 editContent">
-    				   	
-    				   	<div class="col">
-    				   				    					
-    						<h3>Column Three</h3>
-    						
-    						<p>
-    							Ut non lobortis est. Ut dictum scelerisque luctus. Aliquam condimentum interdum odio, et fermentum nulla pharetra in.
-    						</p>
-    						
-    					</div><!-- /.col -->	
-    					    					    				
-    				</div><!-- /.col-md-4 col -->
+    				<?php if(1) {?>
+                        <?php for ($i = 0; $i <= 5; $i ++) {
+                            echo $i.' ';
+                        }?>
+                    <?php } else {?>
+                        <div class="col-md-4">
+                           
+                            <div class="col editContent">
+                                            
+                                <h3>Column One edit</h3>
+                                
+                                <p>
+                                    Ut non lobortis est. Ut dictum scelerisque luctus. Aliquam condimentum interdum odio, et fermentum nulla pharetra in.
+                                </p>
+                            
+                            </div><!-- /.col -->
+                                                                            
+                        </div><!-- /.col-md-4 col -->
+                        
+                        <div class="col-md-4 editContent">
+                            
+                            <div class="col">
+                                                                
+                                <h3>Column Two</h3>
+                                
+                                <p>
+                                    Ut non lobortis est. Ut dictum scelerisque luctus. Aliquam condimentum interdum odio, et fermentum nulla pharetra in.
+                                </p>
+                                
+                            </div><!-- /.col -->
+                                                                            
+                        </div><!-- /.col-md-4 col -->
+                        
+                        <div class="col-md-4 editContent">
+                            
+                            <div class="col">
+                                                                
+                                <h3>Column Three</h3>
+                                
+                                <p>
+                                    Ut non lobortis est. Ut dictum scelerisque luctus. Aliquam condimentum interdum odio, et fermentum nulla pharetra in.
+                                </p>
+                                
+                            </div><!-- /.col -->    
+                                                                        
+                        </div><!-- /.col-md-4 col -->
+                    <?php }?>
     			
     			</div><!-- /.row -->
     		
